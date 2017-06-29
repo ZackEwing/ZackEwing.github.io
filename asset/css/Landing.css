@@ -387,11 +387,9 @@ a {
 
 
 @media screen and (max-width: 900px) {
+	
 	.projectInfo {
 		display: block;
-		background-color: red;
-		/*flex-direction: column;*/
-		/*min-height: 100vh;*/
 }
 	.infoPanel{
 		width: 80%;
