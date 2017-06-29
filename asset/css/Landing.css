@@ -1,0 +1,432 @@
+/*Main styling
+
+Contents
+
+	1. General styling: line 9-18
+	2. Nav Bar Styling: line 19-111 
+	3. Landing page styling: line 112-254
+	4. Project page styling: line 255+
+	5. Slide Show styling: line xx-xx
+	6. CSS animations: line xx-xx*/
+
+/*General Styling*/
+
+body {
+	background-color: #ededed;	
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	/*height: 3000px;*/
+}
+
+/*Navigation Bar Styling*/
+
+#header {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding: 0px 0px 0px 0px;
+	z-index: 1;
+	
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+.zlogo{
+	height: 30px;
+	padding-right: 20px;
+}
+
+.nav-down {
+	position: fixed;
+    top: 0px;
+    transition: top 0.1s ease-in-out;
+
+}
+
+.nav-up {
+	position: fixed;
+    top: -80px;
+    transition: top 0.1s ease-in-out;
+}
+
+.navBar {
+	width: 100vw;
+	padding: 25px 100px 0px 100px;
+	}
+
+#projectNavBar {
+	background-color: #1b1b1b;
+	padding: 0px 100px 0px 100px;
+}
+
+#headerBranding {
+	float: left;
+	color: white;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	padding: 0px 20px 0px;
+	animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.navBar ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+}
+
+.navBar li{
+	float: left;
+}
+
+.navBar li a:hover:not(.active) {
+	background-color: #343434;
+}
+
+#active {
+    color: #55bd86;
+    font-weight: bolder;
+}
+
+.navBar li a{
+	display: block;
+	padding: 25px 25px 25px 25px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+}
+
+#navBarRight {
+	float: right;
+	padding-right: 20px;
+}
+
+#navBarLeft {
+	float: left;
+}
+
+/*Landing page responsive styling*/
+
+.landing {
+	width: 100%;
+	height: 100vw;
+	/*padding-top: 65px;*/
+	background-color: #343434;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1em;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#landingMain{
+	width: 315%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+
+.landingText{
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+.landingText:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+
+.landingText h1 {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2vw;
+	padding-right: 1.5vw;
+}
+
+#featureText {
+	font-weight: 900;
+	font-family: 'roboto', sans-serif;
+}
+
+
+
+.featureText{
+
+}
+
+.container{
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
+.responsive-image {
+	max-width: 100%;
+}
+
+.cell img {
+	display: block;
+}
+
+.cell {
+	overflow: hidden;
+}
+
+.cell:hover .responsive-image,
+.cell:focus .responsive-image {
+  transform: scale(1.1);
+  transition: all .3s ease-in-out
+}
+
+@media screen and (min-width: 600px) {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.cell {
+		width: calc(50%);
+	}
+	.landing {
+		height: 50vw;
+	}
+	#landingMain{
+		width: 210%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.cell{
+		width: calc(33.3333%);
+	}
+	.landing {
+		height: 33.3333vw;
+	}
+	#landingMain{
+		width: 110%;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	.cell{
+		width: calc(25%);
+	}
+	.landing {
+		height: 25vw;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#headerBranding {
+		height: 65px;
+	}
+	.navBar{
+		padding: 0px;
+		background-color: #141617;
+	}
+
+	#projectNavBar{
+		padding: 0px;
+	}
+
+	.landing {
+		display: none;
+	}
+		.container {
+		padding: 65px 0px 0px 0px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.navBar{
+		padding: 0px;
+	}
+	.navBar ul{
+		display: none;
+	}
+}
+
+/*Project Page Styling*/
+
+.project {
+	padding: 65px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ededed;
+} 
+
+.projectInfo {
+    width: 100vw;
+    min-height: 20vh; 
+	background-color: #ededed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	vertical-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #141617;
+	
+}
+
+.infoPanel{
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+	width: 35%;
+	text-align: justify;
+	animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.infoPanel h1{
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.projectSlideShow{
+	max-height: 70vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+#OttoQApp{
+	background-color: #00afee;
+}
+
+#giftMe{
+	background-color: #fb2154;
+}
+
+.imageCell{
+	height: 100%;
+	display: block;
+}
+
+.imageCell img {
+	display: block;
+	max-height: 67vh;
+	width: auto;
+}
+
+.projectImage{
+	max-width: 100%;
+	height: auto;
+}
+
+/*Slideshow Styling*/
+
+.slideShowController{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.prev, .next {
+  color: #bbb;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  animation: fadein 1s;
+  cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+	transform: scale(1.2);
+}
+.prev {
+	margin-right: 20px;
+}
+
+.next {
+	margin-left: 20px;
+}
+
+.dot {
+	margin: 20px 10px 10px 10px;
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	animation: fadein 1s;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade ;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade ;
+  animation-duration: 0.5s;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.projectInfo {
+		flex-direction: column;
+}
+	.infoPanel{
+		width: 80%;
+		padding: 0px 0px 0px 0px;
+		margin: 0 auto;
+	}
+}
+
+/*CSS animations*/
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
