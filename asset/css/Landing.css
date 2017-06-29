@@ -272,13 +272,11 @@ a {
 } 
 
 .projectInfo {
-    width: 100vw;
-    /*min-height: 20vh; */
+    width: 100%;
 	background-color: #ededed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	vertical-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #141617;
 	
