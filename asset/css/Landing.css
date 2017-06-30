@@ -55,11 +55,16 @@ a {
 
 .navBar {
 	width: 100vw;
-	padding: 25px 100px 0px 100px;
+	padding: 0px 100px 0px 100px;
 	}
+
+#landingNavBar {
+	padding-top: 25px;
+}
 
 #projectNavBar {
 	background-image: url('../img/landing/topBar.png');
+	background-i
 	padding: 0px 100px 0px 100px;
 }
 
@@ -238,7 +243,7 @@ a {
 	}
 	.navBar{
 		padding: 0px;
-		background-color: #141617;
+		background-image: url('../img/landing/topBar.png');
 	}
 
 	#projectNavBar{
@@ -328,6 +333,10 @@ a {
 
 #cliffyRun{
 	background-color: #61e1ff;
+}
+
+#visualization{
+	background-color: #96fff5;
 }
 
 .imageCell{
