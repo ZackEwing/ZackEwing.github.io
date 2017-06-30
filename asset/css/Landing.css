@@ -59,7 +59,7 @@ a {
 	}
 
 #projectNavBar {
-	background-color: #1b1b1b;
+	background-image: url('../img/landing/topBar.png');
 	padding: 0px 100px 0px 100px;
 }
 
@@ -327,7 +327,7 @@ a {
 }
 
 #cliffyRun{
-	background-color: #13d2ff;
+	background-color: #61e1ff;
 }
 
 .imageCell{
