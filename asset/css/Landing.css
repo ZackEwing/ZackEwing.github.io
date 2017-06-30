@@ -314,6 +314,10 @@ a {
 	background-color: #fb2154;
 }
 
+#OttoValet{
+	background-color: #54bdf5;
+}
+
 .imageCell{
 	height: 100%;
 	display: block;
@@ -387,7 +391,7 @@ a {
 
 
 @media screen and (max-width: 900px) {
-	
+
 	.projectInfo {
 		display: block;
 }
