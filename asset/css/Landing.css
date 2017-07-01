@@ -256,6 +256,10 @@ a {
 		.container {
 		padding: 65px 0px 0px 0px;
 	}
+
+	#landingNavBar{
+		padding-top: 0px;
+	}
 }
 
 @media screen and (max-width: 650px) {
@@ -335,7 +339,7 @@ a {
 	background-color: #61e1ff;
 }
 
-#visualization{
+#visual{
 	background-color: #96fff5;
 }
 
