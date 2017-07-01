@@ -119,6 +119,7 @@ a {
 	float: left;
 }
 
+
 /*Landing page responsive styling*/
 
 .landing {
@@ -267,6 +268,21 @@ a {
 		padding: 0px;
 	}
 	.navBar ul{
+/*		display: none;*/
+	}
+
+	#myName{
+		display: none;
+	}
+
+	.navBar li a{
+		padding: 25px 10px 25px 5px;
+	}
+
+}
+
+@media screen and (max-width: 300px){
+		.navBar ul{
 		display: none;
 	}
 }
