@@ -161,14 +161,14 @@ a {
 #verticalLandingText h1{
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 2vw;
+	padding-bottom: 4vw;
 	font-size: 7vw;
 }
 
 #verticalLandingText h2{
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 5vw;
+	padding-bottom: 7vw;
 	font-size: 5vw;
 }
 
