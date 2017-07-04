@@ -98,7 +98,7 @@ a {
 
 #active {
     color: #55bd86;
-    font-weight: bolder;
+    font-weight: 100;
 }
 
 .navBar li a{
@@ -146,7 +146,7 @@ a {
 #verticalLandingText{
 	position: absolute;
 	text-transform: uppercase;
-	font-weight: thin;
+	font-weight: 100;
 	font-family: 'roboto', sans-serif;
 	padding-top: 30%;
 	width: 100%;
@@ -191,7 +191,7 @@ a {
 	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'roboto', sans-serif;
-	font-weight: thin;
+	font-weight: 100;
 	font-size: 2vw;
 	padding-right: 1.5vw;
 }
