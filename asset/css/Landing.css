@@ -170,8 +170,6 @@ a {
 	margin: 0 auto;
 	padding-bottom: 5vw;
 	font-size: 5vw;
-	text-align: justify-all;
-
 }
 
 
@@ -316,8 +314,9 @@ a {
 	}
 
 	#landingNavBar{
-		padding-top: 15px;
+		padding: 15px;
 	}
+
 	.zlogo{
 		height: 20px;
 	}
@@ -346,6 +345,10 @@ a {
 
 	.navBar li a{
 		padding: 25px 10px 25px 5px;
+	}
+
+	#landingNavBar{
+		padding: 5px;
 	}
 
 }
