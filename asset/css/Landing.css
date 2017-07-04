@@ -200,6 +200,10 @@ a {
   transition: all .3s ease-in-out
 }
 
+#hiddenSquare{
+		display: none;
+	}
+
 @media screen and (min-width: 600px) {
 	.grid {
 		display: flex;
@@ -215,6 +219,9 @@ a {
 	#landingMain{
 		width: 210%;
 	}
+	#hiddenSquare{
+		display: none;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -227,11 +234,18 @@ a {
 	#landingMain{
 		width: 110%;
 	}
+	#hiddenSquare{
+		display: block;
+	}
 }
 
 @media screen and (min-width: 1700px) {
 	.cell{
 		width: calc(25%);
+	}
+
+	#hiddenSquare{
+		display: none;
 	}
 	/*.landing {
 		height: 25vw;
