@@ -36,7 +36,7 @@ a {
 	color: white;
 }
 .zlogo{
-	height: 30px;
+	height: 25px;
 	padding-right: 20px;
 }
 
@@ -143,6 +143,39 @@ a {
 	overflow: hidden;
 }
 
+#verticalLandingText{
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: thin;
+	font-family: 'roboto', sans-serif;
+	padding-top: 30%;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+
+	animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+#verticalLandingText h1{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2vw;
+	font-size: 7vw;
+
+}
+
+#verticalLandingText h2{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2vw;
+	font-size: 5vw;
+	text-align: justify-all;
+
+}
+
+
 .landingText{
     position: absolute;    
     height: 100%;
@@ -161,13 +194,13 @@ a {
 	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'roboto', sans-serif;
-	font-weight: 100;
+	font-weight: thin;
 	font-size: 2vw;
 	padding-right: 1.5vw;
 }
 
 #featureText {
-	font-weight: 900;
+	font-weight: bold;
 	font-family: 'roboto', sans-serif;
 }
 
@@ -222,6 +255,16 @@ a {
 	#hiddenSquare{
 		display: none;
 	}
+
+	#verticalLandingText{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.landingText{
+		display: none;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -247,9 +290,10 @@ a {
 	#hiddenSquare{
 		display: none;
 	}
-	/*.landing {
+	.landing {
 		height: 25vw;
-	}*/
+	}
+
 }
 
 @media screen and (max-width: 900px) {
@@ -257,8 +301,8 @@ a {
 		height: 65px;
 	}
 	.navBar{
-		padding: 0px;
-		background-image: url('../img/landing/topBar.png');
+		padding: 30px;
+		/*background-image: url('../img/landing/topBar.png');*/
 	}
 
 	#projectNavBar{
@@ -266,20 +310,32 @@ a {
 	}
 
 	.landing {
-		display: none;
+		/*display: none;*/
 	}
 		.container {
-		padding: 65px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 	}
 
 	#landingNavBar{
-		padding-top: 0px;
+		padding-top: 15px;
+	}
+	.zlogo{
+		height: 20px;
+	}
+
+	.landingText h1 {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2.5vw;
+	padding-right: 1.5vw;
 	}
 }
 
 @media screen and (max-width: 650px) {
 	.navBar{
-		padding: 0px;
+		/*padding: 30px;*/
 	}
 	.navBar ul{
 /*		display: none;*/
