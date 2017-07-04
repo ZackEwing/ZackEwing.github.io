@@ -151,9 +151,9 @@ a {
 	padding-top: 30%;
 	width: 100%;
 
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
 
 	animation: 0.5s ease-out 0s 1 slideInFromLeft;
 }
@@ -169,7 +169,7 @@ a {
 #verticalLandingText h2{
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 2vw;
+	padding-bottom: 5vw;
 	font-size: 5vw;
 	text-align: justify-all;
 
