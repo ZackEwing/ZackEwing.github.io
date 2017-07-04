@@ -143,7 +143,7 @@ a {
 	overflow: hidden;
 }
 
-#verticalLandingText{
+/*#verticalLandingText{
 	position: absolute;
 	text-transform: uppercase;
 	font-weight: 100;
@@ -171,7 +171,7 @@ a {
 	padding-bottom: 7vw;
 	font-size: 5vw;
 }
-
+*/
 
 .landingText{
     position: absolute;    
@@ -299,7 +299,7 @@ a {
 	}
 	.navBar{
 		padding: 30px;
-		/*background-image: url('../img/landing/topBar.png');*/
+		background-image: url('../img/landing/topBar.png');
 	}
 
 	#projectNavBar{
@@ -307,14 +307,14 @@ a {
 	}
 
 	.landing {
-		/*display: none;*/
+		display: none;
 	}
 		.container {
-		padding: 0px 0px 0px 0px;
+		padding: 65px 0px 0px 0px;
 	}
 
 	#landingNavBar{
-		padding: 15px;
+		padding: 0px;
 	}
 
 	.zlogo{
@@ -348,7 +348,7 @@ a {
 	}
 
 	#landingNavBar{
-		padding: 5px;
+		padding: 0px;
 	}
 
 }
