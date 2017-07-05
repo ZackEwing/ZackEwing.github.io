@@ -143,36 +143,6 @@ a {
 	overflow: hidden;
 }
 
-/*#verticalLandingText{
-	position: absolute;
-	text-transform: uppercase;
-	font-weight: 100;
-	font-family: 'roboto', sans-serif;
-	padding-top: 30%;
-	width: 100%;
-
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-
-	animation: 0.5s ease-out 0s 1 slideInFromLeft;
-}
-
-#verticalLandingText h1{
-	display: block;
-	margin: 0 auto;
-	padding-bottom: 4vw;
-	font-size: 7vw;
-}
-
-#verticalLandingText h2{
-	display: block;
-	margin: 0 auto;
-	padding-bottom: 7vw;
-	font-size: 5vw;
-}
-*/
-
 .landingText{
     position: absolute;    
     height: 100%;
