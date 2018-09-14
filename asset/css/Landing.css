@@ -311,6 +311,16 @@ a {
 }
 
 @media screen and (max-width: 650px) {
+
+	.circlelogo{
+		height: 40px;
+		/*padding: 20px 20px 0px 0px;*/
+	}
+
+/*	#projectNav {
+		padding: 20px 0px 0px 20px;
+}
+*/
 	.navBar{
 		/*padding: 30px;*/
 	}
@@ -342,7 +352,7 @@ a {
 
 #projectNav {
 	position: absolute;
-	padding: 30px 0px 0px 30px;
+	padding: 25px 0px 0px 25px;
 }
 
 .project {
