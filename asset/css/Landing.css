@@ -40,6 +40,10 @@ a {
 	padding-right: 20px;
 }
 
+.linkedin{
+	height: 25px;
+}
+
 .circlelogo{
 	height: 50px;
 }
@@ -293,7 +297,7 @@ a {
 
 	.zlogo{
 		/*height: 20px;*/
-		padding-top: 1em;
+		padding-top: 1.5em;
 	}
 
 	.landingText h1 {
