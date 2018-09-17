@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>OttoQ Parking Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asset/img/favicon2.png" />
+
+    <!-- Some interesting tidbits for the google crawlers to glean -->
+    <meta name="description" content="OttoQ Enterprise Parking Dashboard">
+    <meta name="keywords" content="mobile, app">
+
+	<!-- CSS FOR THE LANDING -->
+    <link href="asset/css/Landing.css" rel="stylesheet">
+
+    <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	  <script>
+	 	document.body.classList.add('js-loading');
+
+		window.addEventListener("load", showPage);
+
+		function showPage() {
+ 				document.body.classList.remove('js-loading');
+			}
+	  </script>
+</head>
+	<body id="body">
+			
+			<div id = 'header' class = 'nav-down'>
+				<div class = 'navBar' id="landingNavBar">
+				<div id = 'headerBranding'>
+					<a href="index.html">
+						<img class = "zlogo" src="asset/img/icons/logo_circle_white.png"> 
+						<!-- <a href="index.html">ZACK EWING</a> -->
+					</a>
+				</div>
+
+
+					<ul id='navBarRight'>
+						<li><a href="https://www.linkedin.com/in/zackewing/"><img class = "linkedin" src="asset/img/icons/linkedin.png"> </a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="landing">
+
+				<div class= "landingText">
+					<a href="index.html"><img class = "landinglogo" src="asset/img/icons/logo_circle_white.png"></a>
+					<h1 id = "featureText">Zack Ewing</h1> 
+					<h1> ui | UX design </h1>
+					<h1>graphic design</h1>
+					<h1>game art and </br> design</h1>
+					<a href="https://www.linkedin.com/in/zackewing/"><img class = "linkedinbig" src="asset/img/icons/linkedin.png"> </a>
+				</div>
+
+					<img id = "landingMain" src="asset/img/landing/landingMain.jpg"> 
+			</div>
+
+			<div class ="project" id="ossoIllustration">
+
+				<div class="projectSlideShow" id="ossoIllustration">
+					
+					<div class="imageCell fade">
+						<img src="asset/img/projects/osso_illustration/surgeon.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/osso_illustration/student.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/osso_illustration/lab_1.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/osso_illustration/lab_2.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+				</div>
+
+				<div class="slideShowController">
+					<a class="prev" onclick="plusSlides(-1);stopScroll()">&#10094;</a>
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(2);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(3);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(4);stopScroll()"></span> 
+						</div>
+  					<a class="next" onclick="plusSlides(1);stopScroll()">&#10095;</a>
+  				</div>
+
+				<div class="projectInfo">
+
+					<div  class = "infoPanel">
+							<h1> Project Scope</h1>
+							<p>Osso VR is an award winning VR surgical and medical device training platform.  The company is made up of practicing clinicians, professional VR developers and medtech industry veterans.  Osso specializes in hyper-realistic, haptic-enhanced, hands-on interactivity and design.</p>
+					</div>
+
+					<div  class = "infoPanel">
+							<h1> Contribution</h1>
+							<p>I was contracted by Osso VR to produce a series of images that reflected their merger of game design and technology with medical training to be used in presentations and marketing material for the 2017 Department of Education Ed-Sim challenge. The low-poly art style
+							used throughout underlines the union of digital visualization with real world applications. </p>
+					</div>
+
+				</div>
+
+			</div>
+			
+		<!-- <script 
+	 		 src="asset/scripts/headerScroll.js">
+		</script>
+ -->
+		<script 
+			src="asset/scripts/slideShow.js">
+		</script>
+		
+	    </body>
+</html>
+

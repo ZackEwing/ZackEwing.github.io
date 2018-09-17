@@ -20,7 +20,7 @@ Contents
 }
 
 body {
-	background-color: #ededed;	
+	background-color: #282828;	
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -215,6 +215,7 @@ a {
 
 .responsive-image {
 	max-width: 100%;
+	animation: 0.5s ease-out 0s 1 shrink;
 }
 
 .cell img {
@@ -282,7 +283,7 @@ a {
 
 @media screen and (min-width: 1700px) {
 	.cell{
-		/*width: calc(25%);*/
+		width: calc(25%);
 	}
 
 	#hiddenSquare{
@@ -466,6 +467,12 @@ a {
 	height: auto;
 }
 
+#ossoIllustration{
+	background-color: white;
+	color: black;
+	border-bottom-color: black;
+}
+
 #valet{
 	background-color: #54bdf5;
 	color: white;
@@ -561,7 +568,7 @@ a {
 }
 
 .active, .dot:hover {
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 .fade {
@@ -654,4 +661,9 @@ a {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+@keyframes shrink {
+  from {transform: scale(1.05);} 
+  to {transform: scale(1.0);}
 }
