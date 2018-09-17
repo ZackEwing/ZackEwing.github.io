@@ -434,6 +434,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	animation: 0.5s ease-out 0s 1 slideInFromRight;
 }
 
 .imageCell{
@@ -570,6 +571,7 @@ a {
 
 	.imageCell img {
 		max-width: 85%;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -610,19 +612,23 @@ a {
 
 @keyframes slideInFromLeft {
   0% {
-    transform: translateX(-30%);
+    transform: translateX(-15%);
+    opacity: 0.0;
   }
   100% {
     transform: translateX(0);
+    opacity: 1.0;
   }
 }
 
 @keyframes slideInFromRight {
   0% {
-    transform: translateX(10%);
+    transform: translateY(3%);
+    opacity: 0.0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1.0;
   }
 }
 
