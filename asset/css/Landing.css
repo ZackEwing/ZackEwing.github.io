@@ -11,6 +11,14 @@ Contents
 
 /*General Styling*/
 
+//anim wait for loading
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
 body {
 	background-color: #ededed;	
 	margin: 0;
