@@ -18,7 +18,18 @@
 	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	  crossorigin="anonymous"></script>
 
+	  <script>
+	 	document.body.classList.add('js-loading');
+
+		window.addEventListener("load", showPage);
+
+		function showPage() {
+ 				document.body.classList.remove('js-loading');
+			}
+	  </script>
+
 </head>
+
 	<body id="body">
 			<div id = 'header' class = 'nav-down'>
 				<div class = 'navBar' id="landingNavBar">
