@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>OttoQ Parking Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asset/img/favicon2.png" />
+
+    <!-- Some interesting tidbits for the google crawlers to glean -->
+    <meta name="description" content="OttoQ Enterprise Parking Dashboard">
+    <meta name="keywords" content="mobile, app">
+
+	<!-- CSS FOR THE LANDING -->
+    <link href="asset/css/Landing.css" rel="stylesheet">
+
+    <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	  <script>
+	 	document.body.classList.add('js-loading');
+
+		window.addEventListener("load", showPage);
+
+		function showPage() {
+ 				document.body.classList.remove('js-loading');
+			}
+	  </script>
+</head>
+	<body id="body">
+			
+			<div id = 'header' class = 'nav-down'>
+				<div class = 'navBar' id="landingNavBar">
+				<div id = 'headerBranding'>
+					<a href="index.html">
+						<img class = "zlogo" src="asset/img/icons/logo_circle_white.png"> 
+						<!-- <a href="index.html">ZACK EWING</a> -->
+					</a>
+				</div>
+
+
+					<ul id='navBarRight'>
+						<li><a href="https://www.linkedin.com/in/zackewing/"><img class = "linkedin" src="asset/img/icons/linkedin.png"> </a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="landing">
+
+				<div class= "landingText">
+					<a href="index.html"><img class = "landinglogo" src="asset/img/icons/logo_circle_white.png"></a>
+					<h1 id = "featureText">Zack Ewing</h1> 
+					<h1> ui | UX design </h1>
+					<h1>graphic design</h1>
+					<h1>game art and </br> design</h1>
+					<a href="https://www.linkedin.com/in/zackewing/"><img class = "linkedinbig" src="asset/img/icons/linkedin.png"> </a>
+				</div>
+
+					<img id = "landingMain" src="asset/img/landing/landingMain.jpg"> 
+			</div>
+
+			<div class ="project" id="ossoIllustration">
+
+				<div class="projectSlideShow" id="ossoIllustration">
+					
+					<div class="imageCell fade">
+						<img src="asset/img/projects/nativecoach/native1.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/nativecoach/native1.5.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/nativecoach/native2.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/nativecoach/native3.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/nativecoach/native4.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+					<div class="imageCell fade">
+						<img src="asset/img/projects/nativecoach/native5.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+				</div>
+
+				<div class="slideShowController">
+					<a class="prev" onclick="plusSlides(-1);stopScroll()">&#10094;</a>
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(2);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(3);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(4);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(5);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(6);stopScroll()"></span> 
+
+						</div>
+  					<a class="next" onclick="plusSlides(1);stopScroll()">&#10095;</a>
+  				</div>
+
+				<div class="projectInfo">
+
+					<div  class = "infoPanel">
+							<h1> Project Scope</h1>
+							<p>Native Coach is a langauage learning app currently in development that connects students with content created by a growing community of native speakers. Students learn through expansion exercises in a hands free UI that makes it easy to work on your foreign language skills while running, cycling, or whatever moves you.</p>
+					</div>
+
+					<div  class = "infoPanel">
+							<h1> Contribution</h1>
+							<p>As the sole design consultant for the project, I worked with the team at native coach to define their initial message, and used that narrative in tandem with user research to generate a brand identity for the company as well as a visual language and UI flows for version 1 of their app and consumer-facing website.</p>
+					</div>
+
+				</div>
+
+			</div>
+			
+		<!-- <script 
+	 		 src="asset/scripts/headerScroll.js">
+		</script>
+ -->
+		<script 
+			src="asset/scripts/slideShow.js">
+		</script>
+		
+	    </body>
+</html>
+
