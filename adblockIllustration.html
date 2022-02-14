@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>AdBlock Illustration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asset/img/favicon2.png" />
+
+    <!-- Some interesting tidbits for the google crawlers to glean -->
+    <meta name="description" content="AdBlock Illustration">
+    <meta name="keywords" content="mobile, extension, illustration, app, isometric">
+
+	<!-- CSS FOR THE LANDING -->
+    <link href="asset/css/Landing.css" rel="stylesheet">
+
+    <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	  <script>
+	 	document.body.classList.add('js-loading');
+
+		window.addEventListener("load", showPage);
+
+		function showPage() {
+ 				document.body.classList.remove('js-loading');
+			}
+	  </script>
+</head>
+	<body id="body">
+			
+			<div id = 'header' class = 'nav-down'>
+				<div class = 'navBar' id="landingNavBar">
+				<div id = 'headerBranding'>
+					<a href="index.html">
+						<img class = "zlogo" src="asset/img/icons/logo_txt_flat.png"> 
+						<!-- <a href="index.html">ZACK EWING</a> -->
+					</a>
+				</div>
+
+
+					<ul id='navBarRight'>
+						<li><a href="https://www.linkedin.com/in/zackewing/"><img class = "linkedin" src="asset/img/icons/linkedin.png"> </a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="landing">
+
+				<div class= "landingText">
+					<a href="index.html"><img class = "landinglogo" src="asset/img/icons/logo_txt.png"></a>
+					<!-- <h1 id = "featureText">Zack Ewing</h1>  -->
+					<h1> ui | UX design </h1>
+					<h1>product design</h1>
+					<h1>graphic design</h1>
+					<h1>game art and </br> design</h1>
+					<a href="https://www.linkedin.com/in/zackewing/"><img class = "linkedinbig" src="asset/img/icons/linkedin.png"> </a>
+				</div>
+
+					<!-- <img id = "landingMain" src="asset/img/landing/landingMain.jpg">  -->
+			</div>
+
+			<div class ="project" id="adblockIllustration">
+
+				<div class="projectSlideShow" id="adblockIllustration" style="padding-top: 1em;">
+					
+					<div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_1.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+                    <div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_2.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+                    <div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_3.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+                    
+					<div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_4.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+                    <div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_5.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+                    <div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_6.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+                    <div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_7.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+                    <div class="imageCell fade">
+						<img src="asset/img/projects/AdBlock_illustration/adblock_8.png" class="projectImage" style=" border-bottom-style: none;">
+					</div>
+
+				</div>
+
+				<div class="slideShowController">
+					<a class="prev" onclick="plusSlides(-1);stopScroll()">&#10094;</a>
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(2);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(3);stopScroll()"></span> 
+						  <span class="dot" onclick="currentSlide(4);stopScroll()"></span> 
+                          <span class="dot" onclick="currentSlide(5);stopScroll()"></span> 
+                          <span class="dot" onclick="currentSlide(6);stopScroll()"></span> 
+                          <span class="dot" onclick="currentSlide(7);stopScroll()"></span> 
+                          <span class="dot" onclick="currentSlide(8);stopScroll()"></span> 
+						</div>
+  					<a class="next" onclick="plusSlides(1);stopScroll()">&#10095;</a>
+  				</div>
+
+				<div class="projectInfo">
+
+					<div  class = "infoPanel">
+							<h1> Project Scope</h1>
+							<p>With over 65 million users, AdBlock is the most popular ad blocking extension on many of the most used web browsers. The company maintains a blog and help desk to engage with users via new feature announcements, how-to guides, and general updates. The team uses hero images at the top of articles and blog posts to lend context to communications, reinforce brand identity, and inspire delight.</p>
+					</div>
+
+					<div  class = "infoPanel">
+							<h1> Contribution</h1>
+							<p>As lead product designer at AdBlock, I architected a new style guide and brand identity that began making its way into our products in mid-2020. In order to reinforce our new brand identity and visual language, I was tasked with delivering blog post imagery to our content marketing team for use in our user facing communications. Because AdBlock operates with a very small design team, the process we used was to first find licensed vector art that was close to our flat isometric style, then refactor and simply that art, adding new assets as needed to build images with complete narratives. Above are a few examples of the final imagery.</p>
+					</div>
+
+				</div>
+
+			</div>
+			
+		<!-- <script 
+	 		 src="asset/scripts/headerScroll.js">
+		</script>
+ -->
+		<script 
+			src="asset/scripts/slideShow.js">
+		</script>
+		
+	    </body>
+</html>
+
