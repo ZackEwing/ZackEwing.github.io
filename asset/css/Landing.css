@@ -189,9 +189,9 @@ a {
 	color: #1e1e1e;
 	padding-bottom: 1em;
 	display: block;
-	text-transform: uppercase;
+	text-transform:uppercase;
 	font-family: helvetica, sans-serif;
-	font-weight: 100;
+	font-weight: 700;
 	font-size: 1vw;
 	/*padding-right: 1.5vw;*/
 }
