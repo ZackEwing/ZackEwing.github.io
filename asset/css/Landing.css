@@ -487,61 +487,69 @@ a {
 
 #ossoIllustration{
 	background-color: white;
-	color: black;
 	border-bottom-color: black;
 }
 
 #valet{
 	background-color: #54bdf5;
-	color: white;
 	border-bottom-color: white;
+	color: white;
 }
+
+#valet p {color: white;}
 
 #OttoQApp{
 	background-color: #3daff1;
-	color: white;
 	border-bottom-color: white;
+	color: white;
 }
+
+#OttoQApp p {color: white;}
 
 #giftMe{
 	background-color: #fb2154;
-	color: white;
 	border-bottom-color: white;
+	color: white;
 }
+
+#giftMe p {color: white;}
 
 #ottoqDashboard{
 	background-color: #f8f9f9;
-	color: black;
 	border-bottom-color: black;
 }
 
 #mustachio{
 	background-color: #39d5e5;
-	color: white;
 	border-bottom-color: white;
+	color: white;
 }
+
+#mustachio p {color: white;}
 
 #cliffyRun{
 	background-color: #54caea;
-	color: white;
 	border-bottom-color: white;
+	color: white;
 }
+
+#cliffyRun p {color: white;}
 
 #visual{
 	background-color: #96fff5;
-	color: #343434;
 	border-bottom-color: white;
 }
 
 #apparel{
 	background-color: #5b6b71;
+	border-bottom-color: white;
 	color: white;
-	border-bottom-color: white: 
 }
+
+#apparel p {color: white;}
 
 #adblockIllustration{
 	background-color: white;
-	color: black;
 	border-bottom-color: black;
 }
 
