@@ -254,11 +254,6 @@ a {
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
-
-	.prev:hover, .next:hover {
-		transform: scale(1.2);
-	}
-
 	.cell {
 		width: calc(50%);
 	}
@@ -280,10 +275,6 @@ a {
 	#headerBranding {
 		padding-right: 0px;
 	}
-
-	.prev:hover, .next:hover {
-		transform: scale(1.0);
-	}
 }
 @media screen and (max-width: 600px) {
 	.landingText{
@@ -301,11 +292,6 @@ a {
 	#landingMain{
 		/*width: 110%;*/
 	}
-
-	.prev:hover, .next:hover {
-		transform: scale(1.2);
-	}
-
 	#hiddenSquare{
 		display: block;
 	}
@@ -321,9 +307,6 @@ a {
 	}
 	.landing {
 		/*height: 25vw;*/
-	}
-	.prev:hover, .next:hover {
-		transform: scale(1.2);
 	}
 
 }
@@ -594,6 +577,9 @@ a {
   cursor: pointer;
 }
 
+.prev:hover, .next:hover {
+	transform: scale(1.2);
+}
 .prev {
 	margin-right: 20px;
 }
